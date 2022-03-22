@@ -11,10 +11,10 @@
     <!-- Go to :: Setting > Site Title & Tagline -->
     <?php 
         /* Doesn't work outside /wp-content/themes */
+        echo bloginfo( 'charset' );
         echo bloginfo('name');              // Site Title
         echo bloginfo('description');       // Tagline or description
     ?>
 
-    
 </body>
 </html>

@@ -1,0 +1,22 @@
+/*
+    Theme Name: Twenty Twenty One Child
+    Template: twentytwentyone
+*/
+
+
+/*
+ * Child Theme
+ * Se debe especificar 'Theme Name' y 'Template', 
+ * que es el nombre de la carpeta del padre.
+ * 
+ * Para añadir el estilo a la web, ver functions.php -> 2...8
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    color: orange;
+}
