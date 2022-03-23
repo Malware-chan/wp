@@ -1,5 +1,6 @@
 <?php
 /* Home Page uses index.php -> also default for when single.php or page.php fails */
+// Check -> Tu página de inicio > Tus últimas entradas
 
 if ( have_posts() ) {
 
