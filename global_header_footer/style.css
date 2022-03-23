@@ -14,7 +14,7 @@
 
 /* Incluir la barra superior de WordPress
  * header.php -> dentro de <head> se incluye wp_head(), no se cierra el <body> y <html>
- * footer.php -> dentro de <footer> se incluye wp_footer(), se cierra el </body> y </html>
+ * footer.php -> antes de cerrar </body> se incluye wp_footer(), se cierra </body> y </html>
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
