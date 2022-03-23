@@ -2,3 +2,14 @@
 Theme Name: Twenty Twenty-Two Child
 Template: twentytwentytwo
 */
+
+/* 
+To insert CSS in the header or footer check -> wp/global_header_footer
+-- header.php -- <?php wp_head(); /* wp_head() will search for -> functions.php */ ?>
+-- footer.php -- <?php wp_footer(); ?>
+-- functions.php -- <?php
+function universite_files() {
+    wp_enqueue_style( 'main-style', get_stylesheet_uri());
+}
+add_action('wp_enqueue_scripts', 'universite_files');
+*/
